@@ -1,0 +1,606 @@
+/*
+Theme Name: ADV Guatemala - Tema
+Author: driegonGT
+Author URI: http://www.driegongt.com
+Description: Tema personalizado para la empresa Aliento de Vida de Guatemala
+Version: 1.1
+*/
+
+img {
+	width: 100%;
+    height: auto;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+a:link {
+	text-decoration: none;
+	color:inherit;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+.telefono {
+	float: left;
+	text-align: right;
+}
+
+.telefono-contain {
+	width: 43%;
+	float: right;
+	padding-right: 20px;
+}
+
+.wa {
+	float: right;
+	padding-top: 6px;
+	width: 20px;
+}
+
+.full-container {
+	margin-left: auto;
+	margin-right: auto;
+	width:	1280px;
+	height: 100%;
+	min-height: 600px;
+	background-color: #FFF;
+}
+
+.barra-top {
+	margin-top: 0px;
+	height: 10px;
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3dbccf;	
+}
+
+.barra-menu{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 85px;
+}
+
+.logo{
+	padding-top: 1.75%;
+	width: 234px;
+	height: auto;
+	overflow: visible;
+	padding-left: 8%;
+	float: left;	
+}
+
+.navegacion{
+	height: 45px;
+	width: 60%;
+	float: right;
+	padding-right: 7%;
+	padding-top: 0.60%;
+}
+
+ul {
+    list-style-type: none;
+	color: #3dbccf;
+    background-color: #FFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+li {
+    float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3dbccf;
+	color: #FFF;
+}
+
+/*grey*/
+
+.logogrey {
+	float: left;
+	width: auto;
+	padding-top: 0.75%;
+	padding-left: 15%;
+}
+
+.menugrey {
+	padding-right: 10%;
+	float: right;
+	height: 75px;
+}
+
+.itemsgrey{
+	float: right;
+	list-style-type: none;
+	color: #9a9a9a;
+
+}
+
+.itemsgrey li {
+	float: left;
+	padding-left: 22px;
+	padding-right: 22px;
+	display: inline;
+	color: #9a9a9a;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+#subMenu {
+	height:72px;
+	width: 100%;
+	background:#FFF;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:500;
+	opacity:.94;
+}
+
+/*****/
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+.slider{
+	width: 100%;
+	height: 673px;
+	background-image:url(images/slide.jpg);	
+}
+
+.slider-terapias{
+	width: 100%;
+	height: 250px;
+	background-image:url(images/terapias.jpg);	
+}
+
+
+.nosotros{
+	width: 100%;
+	height: 455px;
+	background-color: #3dbccf;
+}
+
+.oxigeno{
+	width: 100%;
+	height: 550px;
+	background-color: #3dbccf;
+}
+
+.aerosol{
+	width: 100%;
+	height: 500px;
+	background-color: #3dbccf;
+}
+
+.torax{
+	width: 100%;
+	height: 550px;
+	background-color: #3dbccf;
+}
+
+.cuidados{
+	width: 100%;
+	height: 600px;
+	background-color: #3dbccf;
+}
+
+.img-seccion{
+	float: left;
+	width: 438px;
+	height: auto;
+	padding-top: 6.5%;
+	padding-left: 11%;
+}
+
+.img-seccion-terapia-left{
+	float: left;
+	width: 438px;
+	height: auto;
+	padding-top: 8.5%;
+	padding-left: 11%;
+}
+
+.img-seccion-terapia-right{
+	float: right;
+	width: 438px;
+	height: auto;
+	padding-top: 8.5%;
+	padding-right: 10%;
+}
+
+.txt-seccion {
+	float: right;
+	width: 495px;
+	padding-right: 11%;
+	padding-top: 6.5%;
+}
+
+.txt-seccion-terapias-right {
+	float: right;
+	width: 495px;
+	padding-right: 11%;
+	padding-top: 6.5%;
+}
+
+.txt-seccion-terapias-left {
+	float: left;
+	width: 495px;
+	padding-left: 11%;
+	padding-top: 6.5%;
+}
+
+
+
+H1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #FFF;
+	letter-spacing: 5px;
+}
+
+.terapias_titular{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	width: 100%;
+	color: #3dbccf;
+	padding-top: 6%;
+	letter-spacing: 5px;	
+	text-align: center;	
+	padding-bottom: 2.5%;
+}
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-style:normal;
+	color: #FFF;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.terapias{
+	width: 100%;
+	height: 680px;
+	background-color: #FFF;
+}
+
+.equipo{
+	width: 100%;
+	height: 455px;
+	background-color: #3dbccf;
+}
+
+.img-seccion-left{
+	float: right;
+	width: 438px;
+	height: auto;
+	padding-top: 6.5%;
+	padding-right: 11%;
+}
+
+.txt-seccion-left {
+	float: left;
+	width: 495px;
+	padding-left: 11%;
+	padding-top: 8%;
+}
+
+.container-terapias{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	heigth: auto;
+	padding-bottom: 2.5%;	
+}
+
+.container-terapias_left{
+	width: 475px;
+	float: left;
+	heigth: auto;
+	padding-bottom: 2.5%;	
+}
+
+.container-terapias_left2{
+	width: 634px;
+	float: left;
+	heigth: auto;
+	padding-bottom: 2.5%;	
+}
+
+.container-terapias_right{
+	width: 475px;
+	float: right;
+	heigth: auto;
+	padding-bottom: 2.5%;	
+}
+
+.thumbs-terapias{
+	width: auto;
+}
+
+.container-terapia-arriba-right{
+	float: right;
+	width: 290px;
+	padding-top: 0;
+}
+
+.container-terapia-arriba-left{
+	float: left;
+	width: 290px;
+}
+
+.container-terapia-arriba-centro{
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container-terapia-abajo-right{
+	float: right;
+	width: 230px;
+	padding-top: 0;
+}
+
+.container-terapia-abajo-left{
+	float: left;
+	width: 230px;
+}
+
+
+.titulo-terapia{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	height: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	color: #3dbccf;
+	letter-spacing: 1px;	
+}
+
+.contacto-container{
+	width: 100%;
+	height: 600px;
+	padding-bottom: 2%;		
+}
+
+.separator {
+	width: 590px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 4%;	
+}
+
+.contacto-left{
+	width: 25%;
+	padding-left: 5%;
+	float: left;	
+}
+
+.contacto-right{
+	width: 65%;
+	padding-right: 5%;	
+	float: right;
+}
+
+.titular-seccion-contacto{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	text-align: right;
+	color: #3dbccf;
+	line-height: 0;
+	margin-right: 20px;
+}
+
+.textos-seccion-contacto{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	text-align: right;
+	color: #454545;
+	line-height: 0.3;
+	margin-right: 20px;
+}
+
+.cont-contacto-phone{
+	width: 100%;
+	padding-bottom: 25%;
+}
+
+.cont-contacto-dir{
+	width: 100%;
+	padding-bottom: 30%;
+}
+
+.cont-contacto-mail{
+	width: 100%;
+}
+
+.info-contacto-left{
+	padding-top: 5px;
+	float: left;
+	width: 85%;
+	border-right: 1px;
+	border-right-style: solid;
+	border-color: #999;
+}
+
+.info-contacto-celular{
+	float: right;
+	width: auto;
+	height: 30px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info-contacto-pin{
+	float: right;
+	width: auto;
+	height: 30px;
+	padding-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info-contacto-sobre{
+	float: right;
+	width: auto;
+	height: 18px;
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info-container{
+}
+
+
+/*****************
+Contacto
+********************/
+
+.margin {
+  margin: 0 15%;
+}
+
+*:focus {
+  outline: none;
+}
+
+.inputGroup {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.inputGroup label {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  color: #666;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  display: block;
+  width: 97%;
+  border: none;
+  border-bottom: 1px solid #757575;
+  left: 25px;
+  padding: 5px;
+  font-family: 'Raleway', sans-serif;
+  background: none;
+  color: #ccc;
+}
+
+.inputGroup input:focus ~ label,
+.inputGroup input:valid ~ label,
+.inputGroup textarea:focus ~ label,
+.inputGroup textarea:valid ~ label {
+  top: -20px;
+  transition: all 0.3s ease;
+  font-size: 11px;
+  color: #3dbccf; 
+}
+
+.inputGroup input:focus ~ .inputBar:before,
+.inputGroup input:focus ~ .inputBar:after,
+.inputGroup textarea:focus ~ .inputBar:before,
+.inputGroup textarea:focus ~ .inputBar:after {
+  width: 50%;
+}
+
+.inputGroup textarea {
+  height: 100px;
+  width: 97%;
+  overflow: auto;
+  resize: none;
+}
+
+.inputGroup .inputBar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.inputGroup .inputBar:before,
+.inputGroup .inputBar:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  background: #3dbccf;
+  height: 2px;
+  transition: all 0.2s ease;
+}
+
+.inputGroup .inputBar:after {
+  right: 50%;
+}
+
+.inputGroup .inputBar:before {
+  left: 50%;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 15px 0;
+  margin: 0;
+  width: 200px;
+  color: #3dbccf;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 6px #a1a1a1;
+  position: relative;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 4px #3dbccf;
+  top: 2px;
+}
+
+button:active {
+  top: 6px;
+  box-shadow: 0 0;
+}
