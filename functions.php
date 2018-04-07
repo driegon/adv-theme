@@ -1,10 +1,15 @@
 <?php
 // Definimos la función
 function ss_scripts() {
-// El primer paso es usar wp_register_script para registrar el script que queremos cargar. Fíjense que aquí sí usamos *get_template_directory_uri()*
-wp_register_script( 'primer-script', get_template_directory_uri() . '/js/jquery.sticky.js', array( 'jquery'), false, true );
-// Una vez que registramos el script debemos colocarlo en la cola de WordPress
-wp_enqueue_script( 'primer-script' );
+	// El primer paso es usar wp_register_script para registrar el script que queremos cargar. Fíjense que aquí sí usamos *get_template_directory_uri()*
+	wp_register_script( 'sticky', get_template_directory_uri() . '/js/jquery.sticky.js', array( 'jquery'), false, true );
+	wp_register_script( 'custom', get_template_directory_uri() . '/js/custom.js', array( 'jquery'), false, true );
+	wp_register_script( 'easing', get_template_directory_uri() . '/js/jquery.easing.min.js', array( 'jquery'), false, true );
+
+	// Una vez que registramos el script debemos colocarlo en la cola de WordPress
+	wp_enqueue_script( 'sticky' );
+	wp_enqueue_script( 'custom' );
+	wp_enqueue_script( 'easing' );
 }
 
 // Agregamos la función a la lista de cargas de WordPress.
