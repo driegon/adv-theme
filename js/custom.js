@@ -3,8 +3,8 @@
 	Theme Name: Cutting Edge
 	
 -------------------------------------------------------------------------*/
-
-$(document).ready(function () {
+var $m = jQuery;
+$m(document).ready(function ($) {
 	/*vars used throughout*/
 	var wh,
 		scrollSpeed = 750,
@@ -27,10 +27,25 @@ $(document).ready(function () {
     });
 
 //DIRECTIONAL HOVER --------------------------------------------------------------------/  
- 	$(function() {
-    	$('.da-thumbs > article').hoverdir();
-	});
+	//DAGG: Da error ya que no reconoce hoverdir como una función de jQuery 
+ 	/*$(function() {
+    	$m('.da-thumbs > article').hoverdir();
+	});*/ 
    
- 
+ //SCROLL ------------------------------------------------------------------------------/
+ 	var headerTop = $('#header').offset().top;
+    var headerBottom = headerTop + 95; // Sub-menu should appear after this distance from top.
+    $(window).scroll(function () {
+        var scrollTop = $(window).scrollTop(); // Current vertical scroll position from the top
+        if (scrollTop > headerBottom) { // Check to see if we have scrolled more than headerBottom
+            if (($("#subMenu").is(":visible") === false)) {
+                $('#subMenu').fadeIn('slow');
+            }
+        } else {
+            if ($("#subMenu").is(":visible")) {
+                $('#subMenu').hide();
+            }
+        }
+    });
 
 });
