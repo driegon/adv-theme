@@ -6,11 +6,11 @@
           <div class="logogrey"><img src="<?php echo get_template_directory_uri() . '/images/logosmall.jpg'; ?>"></div>
                 <div class="menugrey">
                     <ul class="menu" id="nav">
-                      <li><a href="http://alientodevida.com.gt/#inicio">INICIO</a></li>
-                      <li><a href="http://alientodevida.com.gt/#nosotros">NOSOTROS</a></li>
-                      <li><a href="http://alientodevida.com.gt/#terapias">TERAPIAS</a></li>
-                      <li><a href="http://alientodevida.com.gt/#equipo">EQUIPO</a></li>
-                      <li><a href="http://alientodevida.com.gt/#contacto">CONTACTO</a></li>
+                      <li><a href="<?php echo get_site_url() . '#inicio'; ?>">INICIO</a></li>
+                      <li><a href="<?php echo get_site_url() . '#nosotros'; ?>">NOSOTROS</a></li>
+                      <li><a href="<?php echo get_site_url() . '#terapias'; ?>">TERAPIAS</a></li>
+                      <li><a href="<?php echo get_site_url() . '#equipo'; ?>">EQUIPO</a></li>
+                      <li><a href="<?php echo get_site_url() . '#contacto'; ?>">CONTACTO</a></li>
                     </ul>
                     <div class="underline"></div>
                 </div>
@@ -20,11 +20,11 @@
           <div class="navegacion">
                 <nav>
                     <ul class="menu" id="nav">
-                      <li><a href="http://alientodevida.com.gt/#inicio">INICIO</a></li>
-                      <li><a href="http://alientodevida.com.gt/#nosotros">NOSOTROS</a></li>
-                      <li><a href="http://alientodevida.com.gt/#terapias">TERAPIAS</a></li>
-                      <li><a href="http://alientodevida.com.gt/#equipo">EQUIPO</a></li>
-                      <li><a href="http://alientodevida.com.gt/#contacto">CONTACTO</a></li>
+                      <li><a href="<?php echo get_site_url() . '#inicio'; ?>">INICIO</a></li>
+                      <li><a href="<?php echo get_site_url() . '#nosotros'; ?>">NOSOTROS</a></li>
+                      <li><a href="<?php echo get_site_url() . '#terapias'; ?>">TERAPIAS</a></li>
+                      <li><a href="<?php echo get_site_url() . '#equipo'; ?>">EQUIPO</a></li>
+                      <li><a href="<?php echo get_site_url() . '#contacto'; ?>">CONTACTO</a></li>
                     </ul>
                 </nav>
             </div>
