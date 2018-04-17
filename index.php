@@ -140,7 +140,7 @@ No somos infalibles, por eso disponemos del apoyo y asesoría de otros grupos de
                   <div class="info-contacto-left">
                         <p class="titular-seccion-contacto">EMAIL</p>
                         <p class="textos-seccion-contacto">info@alientodevida.com.gt</p>
-                        <p class="textos-seccion-contacto">lupitaco301@gmail.com</p>
+                        <p class="textos-seccion-contacto">luis.raul.coronado@gmail.com</p>
                     </div>
           <div class="info-contacto-sobre">
                       <img src="<?php echo get_template_directory_uri() . '/images/mail.png'; ?>">
