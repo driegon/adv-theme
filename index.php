@@ -46,23 +46,23 @@ Ofrecemos el servicio de renta y venta de equipo y accesorios para el cuidado de
 
                 <div class="container-terapias_left">
                   <div class="container-terapia-abajo-left">
-                      <div class="thumbs-terapias"><a href="http://alientodevida.com.gt/oxigenoterapia.html"><img src="<?php echo get_template_directory_uri() . '/images/oxigenoterapia.jpg'; ?>"></a></div>
-                      <div class="titulo-terapia"><a href="http://alientodevida.com.gt/oxigenoterapia.html">OXIGENOTERAPIA</a></div>
+                      <div class="thumbs-terapias"><a href="<?php echo get_site_url() . '/index.php/oxigenoterapia-2/'; ?>"><img src="<?php echo get_template_directory_uri() . '/images/oxigenoterapia.jpg'; ?>"></a></div>
+                      <div class="titulo-terapia"><a href="<?php get_site_url() . '/index.php/oxigenoterapia-2/'; ?>">OXIGENOTERAPIA</a></div>
                   </div>
                   <div class="container-terapia-abajo-right">
-                      <div class="thumbs-terapias"><a href="http://alientodevida.com.gt/aerosolterapia.html"><img src="<?php echo get_template_directory_uri() . '/images/aerosolterapia.jpg'; ?>"></a></div>
-                      <div class="titulo-terapia"><a href="http://alientodevida.com.gt/aerosolterapia.html">AEROSOLTERAPIA</a></div>
+                      <div class="thumbs-terapias"><a href="<?php echo get_site_url() . '/index.php/aerosolterapia-2/'; ?>"><img src="<?php echo get_template_directory_uri() . '/images/aerosolterapia.jpg'; ?>"></a></div>
+                      <div class="titulo-terapia"><a href="<?php echo get_site_url() . '/index.php/aerosolterapia-2/'; ?>">AEROSOLTERAPIA</a></div>
                   </div>
                 </div>
 
                 <div class="container-terapias_right">
                   <div class="container-terapia-abajo-left">
-                    <div class="thumbs-terapias"><a href="http://alientodevida.com.gt/cuidados.html"><img src="<?php echo get_template_directory_uri() . '/images/cuidados_viaaerea.jpg'; ?>"></a></div>
-                    <div class="titulo-terapia"><a href="http://alientodevida.com.gt/cuidados.html">CUIDADOS DE LA VÍA AÉREA</a></div>
+                    <div class="thumbs-terapias"><a href="<?php echo get_site_url() . '/index.php/cuidados-de-la-via-aerea/'; ?>"><img src="<?php echo get_template_directory_uri() . '/images/cuidados_viaaerea.jpg'; ?>"></a></div>
+                    <div class="titulo-terapia"><a href="<?php echo get_site_url() . '/index.php/cuidados-de-la-via-aerea/'; ?>">CUIDADOS DE LA VÍA AÉREA</a></div>
                   </div>
                   <div class="container-terapia-abajo-right">
-                    <div class="thumbs-terapias"><a href="http://alientodevida.com.gt/terapia-fisica.html"><img src="<?php echo get_template_directory_uri() . '/images/terapia_deltorax.jpg'; ?>"></a></div>
-                    <div class="titulo-terapia"><a href="http://alientodevida.com.gt/terapia-fisica.html">TERAPIA FÍSICA<br>DEL TÓRAX</a></div>
+                    <div class="thumbs-terapias"><a href="<?php echo get_site_url() . '/index.php/terapia-fisica-del-torax/'; ?>"><img src="<?php echo get_template_directory_uri() . '/images/terapia_deltorax.jpg'; ?>"></a></div>
+                    <div class="titulo-terapia"><a href="<?php echo get_site_url() . '/index.php/terapia-fisica-del-torax/'; ?>">TERAPIA FÍSICA<br>DEL TÓRAX</a></div>
                   </div>
                 </div>
 
@@ -74,22 +74,22 @@ Ofrecemos el servicio de renta y venta de equipo y accesorios para el cuidado de
 
                 <div class="container-terapias_left">
                       <div class="container-terapia-abajo-left">
-                          <div class="thumbs-terapias"><a href="http://alientodevida.com.gt/concentrador.html"><img src="<?php echo get_template_directory_uri() . '/images/concentrador.jpg'; ?>"></a></div>
-                          <div class="titulo-terapia"><a href="http://alientodevida.com.gt/concentrador.html">CONCENTRADOR DE OXÍGENO</a></div>
+                          <div class="thumbs-terapias"><a href="<?php echo get_site_url() . '/index.php/concentrador-de-oxigeno/'; ?>"><img src="<?php echo get_template_directory_uri() . '/images/concentrador.jpg'; ?>"></a></div>
+                          <div class="titulo-terapia"><a href="<?php echo get_site_url() . '/index.php/concentrador-de-oxigeno/'; ?>">CONCENTRADOR DE OXÍGENO</a></div>
                       </div>
                       <div class="container-terapia-abajo-right">
-                          <div class="thumbs-terapias"><a href="http://alientodevida.com.gt/ejercicios.html"><img src="<?php echo get_template_directory_uri() . '/images/ejercicios_respiratorios.jpg'; ?>"></a></div>
-                          <div class="titulo-terapia"><a href="http://alientodevida.com.gt/ejercicios.html">EJERCICIOS<br>RESPIRATORIOS</a></div>
+                          <div class="thumbs-terapias"><a href="<?php echo get_site_url() . '/index.php/ejercicios-respiratorios/'; ?>"><img src="<?php echo get_template_directory_uri() . '/images/ejercicios_respiratorios.jpg'; ?>"></a></div>
+                          <div class="titulo-terapia"><a href="<?php echo get_site_url() . '/index.php/ejercicios-respiratorios/'; ?>">EJERCICIOS<br>RESPIRATORIOS</a></div>
                       </div>
                 </div>
                 <div class="container-terapias_right">
                       <div class="container-terapia-abajo-left">
-                          <div class="thumbs-terapias"><a href="http://alientodevida.com.gt/ippb.html"><img src="<?php echo get_template_directory_uri() . '/images/ipb.jpg'; ?>"></a></div>
-                          <div class="titulo-terapia"><a href="http://alientodevida.com.gt/ippb.html">IPPB o RPPI</a></div>
+                          <div class="thumbs-terapias"><a href="<?php echo get_site_url() . '/index.php/ippb-o-rppi/'; ?>"><img src="<?php echo get_template_directory_uri() . '/images/ipb.jpg'; ?>"></a></div>
+                          <div class="titulo-terapia"><a href="<?php echo get_site_url() . '/index.php/ippb-o-rppi/'; ?>">IPPB o RPPI</a></div>
                       </div>
                       <div class="container-terapia-abajo-right">
-                          <div class="thumbs-terapias"><a href="http://alientodevida.com.gt/aspiracion.html"><img src="<?php echo get_template_directory_uri() . '/images/aspiracion.jpg'; ?>"></a></div>
-                          <div class="titulo-terapia"><a href="http://alientodevida.com.gt/aspiracion.html">ASPIRACIÓN<br>DE SECRECIONES (FLEMAS)</a></div>
+                          <div class="thumbs-terapias"><a href="<?php echo get_site_url() . '/index.php/aspiracion-de-secreciones-flemas/'; ?>"><img src="<?php echo get_template_directory_uri() . '/images/aspiracion.jpg'; ?>"></a></div>
+                          <div class="titulo-terapia"><a href="<?php echo get_site_url() . '/index.php/aspiracion-de-secreciones-flemas/'; ?>">ASPIRACIÓN<br>DE SECRECIONES (FLEMAS)</a></div>
                       </div>
                 </div>
 
