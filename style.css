@@ -3,7 +3,7 @@ Theme Name: ADV Guatemala - Tema
 Author: driegonGT
 Author URI: http://www.driegongt.com
 Description: Tema personalizado para la empresa Aliento de Vida de Guatemala
-Version: 1.1
+Version: 1.3
 */
 
 img {
@@ -287,8 +287,13 @@ p{
 
 .terapias{
 	width: 100%;
-	height: 680px;
+	height: 340px;
 	background-color: #FFF;
+}
+
+.terapias_container{
+	/*display: flow-root;*/
+	overflow: hidden;
 }
 
 .equipo{
