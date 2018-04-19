@@ -14,3 +14,5 @@ function ss_scripts() {
 
 // Agregamos la función a la lista de cargas de WordPress.
 add_action( 'wp_enqueue_scripts', 'ss_scripts' );
+
+add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
