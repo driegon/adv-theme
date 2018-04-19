@@ -197,6 +197,13 @@ li a:hover {
 	background-color: #3dbccf;
 }
 
+.container_pag{
+	width: 100%;
+	height: 500px;
+	background-color: #3dbccf;
+	display: flex;	
+}
+
 .torax{
 	width: 100%;
 	height: 550px;
@@ -238,6 +245,10 @@ li a:hover {
 	width: 495px;
 	padding-right: 11%;
 	padding-top: 6.5%;
+}
+
+.txt-seccion-pag{
+	padding-left: 6.5%;
 }
 
 .txt-seccion-terapias-right {
